@@ -75,7 +75,6 @@ $('#callback-send2').click(function() {
     }
   });
 });
-< script type = "text/javascript" >
   $(document).ready(function() {
     $('#otz_carousel').boutique({
       container_width: 800,
@@ -96,6 +95,7 @@ $('#callback-send2').click(function() {
     $('#otz_carousel .frame3 .otz_name').css('color', '#000');
     $('.otz .otz1').removeClass('hide');
   });
+
 function pre_move_callback(anchor, instance, framenumber) {
   //  alert('Callback example: Frame '+framenumber+', with the link "'+anchor+'", moved forward (in Boutique with an ID of "'+instance+'").');
   var len = $("#otz_carousel > li").length / 2;
@@ -106,20 +106,20 @@ function pre_move_callback(anchor, instance, framenumber) {
     $('.otz .otz' + i + '').addClass('hide');
   }
 }
+
 function move_callback(anchor, instance, framenumber) {
   $('#otz_carousel .frame3 img').attr('src', 'img/' + ($('#otz_carousel .frame3 img').attr('id') + '.png'));
   $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
   $('.otz .' + $('#otz_carousel .frame3 img').attr('id') + '').removeClass('hide');
   $('#otz_carousel .frame3 .otz_name').css('color', '#000');
-} < script type = "text/javascript"
-charset = "utf-8" >
-  $(document).ready(function() {
-    // $("a[rel^='prettyPhoto']").prettyPhoto();
-    $("div[rel^='prettyPhoto'] a").click(function() {
-      return false;
-    })
-    $("div[rel^='prettyPhoto'] a").prettyPhoto();
-  });
+}
+$(document).ready(function() {
+  // $("a[rel^='prettyPhoto']").prettyPhoto();
+  $("div[rel^='prettyPhoto'] a").click(function() {
+    return false;
+  })
+  $("div[rel^='prettyPhoto'] a").prettyPhoto();
+});
 $(document).on('click', '.carousel-button-left', function() {
   //$("a[rel^='prettyPhoto']").prettyPhoto();
   $("div[rel^='prettyPhoto'] a").prettyPhoto();
@@ -159,6 +159,7 @@ $(function() {
     $('.pop_name').val('');
     $('.pop_tel').val('');
   })
+
   function alignCenter(elem) {
     elem.css({
       left: ($(window).width() - elem.width()) / 2 - 10 + 'px',
@@ -175,7 +176,7 @@ $(function() {
     $.ajax({
       type: "POST",
       url: "forms.php",
-      data: "name=" + name + "&tel=" + tel + '&f=' + type + "&subject=Вызвать замерщика",
+      data: "name=" + name + "&tel=" + tel + "&f=" + type + "&subject=Вызвать замерщика",
       success: function(data) {
         if (data == 'ok') {
           //alert ('Заявка успешно отправлена');
@@ -201,7 +202,7 @@ $(function() {
     $.ajax({
       type: "POST",
       url: "forms.php",
-      data: "name=" + name + "&tel=" + tel + '&f=pozdr&subject=Поздравляем 10% скидка',
+      data: "name=" + name + "&tel=" + tel + '&f=pozdr&subject="Поздравляем 10% скидка"',
       success: function(data) {
         if (data == 'ok') {
           //  alert ('Заявка успешно отправлена');
@@ -244,6 +245,7 @@ $(function() {
     setTimeout(timer, 30000);
   }
 })
+
 function timer() {
   var obj = document.getElementById('sec');
   obj.innerHTML--;

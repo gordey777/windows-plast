@@ -263,27 +263,27 @@ $(window).scroll(function() {
     }
     ii = 0;
   };
-}); < script type = "text/javascript" >
-  $(document).ready(function() {
-    $('#otz_carousel').boutique({
-      container_width: 800,
-      front_img_width: 164,
-      hovergrowth: 0,
-      autoplay: true,
-      autoplay_interval: 5000,
-      stop_autoplay_on_click: true,
-      behind_topmargin: 80,
-      behind_opacity: 1,
-      behind_size: 0.7,
-      back_opacity: 1,
-      back_size: 0.7,
-      back_topmargin: 120,
-    });
-    $('#otz_carousel .frame3 img').attr('src', 'img/' + ($('#otz_carousel .frame3 img').attr('id') + '.png'));
-    $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
-    $('#otz_carousel .frame3 .otz_name').css('color', '#000');
-    $('.otz .otz1').removeClass('hide');
+});
+$(document).ready(function() {
+  $('#otz_carousel').boutique({
+    container_width: 800,
+    front_img_width: 164,
+    hovergrowth: 0,
+    autoplay: true,
+    autoplay_interval: 5000,
+    stop_autoplay_on_click: true,
+    behind_topmargin: 80,
+    behind_opacity: 1,
+    behind_size: 0.7,
+    back_opacity: 1,
+    back_size: 0.7,
+    back_topmargin: 120,
   });
+  $('#otz_carousel .frame3 img').attr('src', 'img/' + ($('#otz_carousel .frame3 img').attr('id') + '.png'));
+  $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
+  $('#otz_carousel .frame3 .otz_name').css('color', '#000');
+  $('.otz .otz1').removeClass('hide');
+});
 
 function pre_move_callback(anchor, instance, framenumber) {
   //  alert('Callback example: Frame '+framenumber+', with the link "'+anchor+'", moved forward (in Boutique with an ID of "'+instance+'").');
@@ -301,8 +301,7 @@ function move_callback(anchor, instance, framenumber) {
   $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
   $('.otz .' + $('#otz_carousel .frame3 img').attr('id') + '').removeClass('hide');
   $('#otz_carousel .frame3 .otz_name').css('color', '#000');
-} < script type = "text/javascript"
-charset = "utf-8" >
+}
   $(document).ready(function() {
     // $("a[rel^='prettyPhoto']").prettyPhoto();
     $("div[rel^='prettyPhoto'] a").click(function() {

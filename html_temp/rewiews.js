@@ -104,15 +104,14 @@ $('#callback-send3').click(function() {
       };
     }
   });
-}); < script type = "text/javascript"
-charset = "utf-8" >
-  $(document).ready(function() {
-    // $("a[rel^='prettyPhoto']").prettyPhoto();
-    $("div[rel^='prettyPhoto'] a").click(function() {
-      return false;
-    })
-    $("div[rel^='prettyPhoto'] a").prettyPhoto();
-  });
+});
+$(document).ready(function() {
+  // $("a[rel^='prettyPhoto']").prettyPhoto();
+  $("div[rel^='prettyPhoto'] a").click(function() {
+    return false;
+  })
+  $("div[rel^='prettyPhoto'] a").prettyPhoto();
+});
 $(document).on('click', '.carousel-button-left', function() {
   //$("a[rel^='prettyPhoto']").prettyPhoto();
   $("div[rel^='prettyPhoto'] a").prettyPhoto();

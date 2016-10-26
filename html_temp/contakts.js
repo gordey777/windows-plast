@@ -52,12 +52,6 @@ $(".toptop").click(function() {
   }, 100);
   return false
 });
-<!-- яндекс карта -->
-< script type = "text/javascript" >
-  ymaps.ready(init);
-var myMap,
-  myPlacemark;
-
 function init() {
   myMap = new ymaps.Map("map", {
     center: [51.640954, 39.235932],
@@ -131,7 +125,7 @@ $('#callback-send2').click(function() {
       };
     }
   });
-}); < script type = "text/javascript" >
+});
   $(document).ready(function() {
     $('#otz_carousel').boutique({
       container_width: 800,
@@ -163,21 +157,19 @@ function pre_move_callback(anchor, instance, framenumber) {
     $('.otz .otz' + i + '').addClass('hide');
   }
 }
-
 function move_callback(anchor, instance, framenumber) {
   $('#otz_carousel .frame3 img').attr('src', 'img/' + ($('#otz_carousel .frame3 img').attr('id') + '.png'));
   $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
   $('.otz .' + $('#otz_carousel .frame3 img').attr('id') + '').removeClass('hide');
   $('#otz_carousel .frame3 .otz_name').css('color', '#000');
-} < script type = "text/javascript"
-charset = "utf-8" >
-  $(document).ready(function() {
-    // $("a[rel^='prettyPhoto']").prettyPhoto();
-    $("div[rel^='prettyPhoto'] a").click(function() {
-      return false;
-    })
-    $("div[rel^='prettyPhoto'] a").prettyPhoto();
-  });
+}
+$(document).ready(function() {
+  // $("a[rel^='prettyPhoto']").prettyPhoto();
+  $("div[rel^='prettyPhoto'] a").click(function() {
+    return false;
+  })
+  $("div[rel^='prettyPhoto'] a").prettyPhoto();
+});
 $(document).on('click', '.carousel-button-left', function() {
   //$("a[rel^='prettyPhoto']").prettyPhoto();
   $("div[rel^='prettyPhoto'] a").prettyPhoto();

@@ -56,7 +56,6 @@ $(".v_tel").inputmask("+7 (999) 999-99-99");
 $('#callback-send2').click(function() {
   var name = $('.v_name').val();
   var tel = $('.v_tel').val();
-  //Comagic.push(['addOfflineRequest', {name: name,  phone: tel, message: 'callback2' }]);
   $.ajax({
     type: "POST",
     url: "forms.php",
@@ -68,7 +67,6 @@ $('#callback-send2').click(function() {
         $('.s_tel').val('');
         $('#hide-layout').fadeIn(300);
         $('#spasibo').fadeIn(300);
-        SendComagic(name, tel, 'callback2', '');
       } else {
         alert('Заявка успешно отправлена');
       };
@@ -201,7 +199,6 @@ $(".v_tell").inputmask("+7 (999) 999-99-99");
 $('#callback-send22').click(function() {
   var name = '-';
   var tel = $('.v_tell').val();
-  //Comagic.push(['addOfflineRequest', {name: '',  phone: tel, message: 'callback_ByoOtschet' }]);
   $.ajax({
     type: "POST",
     url: "forms.php",
@@ -212,7 +209,6 @@ $('#callback-send22').click(function() {
         $('.v_tell').val('');
         $('#hide-layout').fadeIn(300);
         $('#spasibo').fadeIn(300);
-        SendComagic('', tel, 'callback_ByoOtschet', '');
       } else {
         alert('Заявка успешно отправлена');
       };
@@ -245,7 +241,7 @@ $(function() {
       note.html(message);
     }
   });
-}); < script type = "text/javascript" >
+});
   $(document).ready(function() {
     $('#otz_carousel').boutique({
       container_width: 800,
@@ -283,15 +279,14 @@ function move_callback(anchor, instance, framenumber) {
   $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
   $('.otz .' + $('#otz_carousel .frame3 img').attr('id') + '').removeClass('hide');
   $('#otz_carousel .frame3 .otz_name').css('color', '#000');
-} < script type = "text/javascript"
-charset = "utf-8" >
-  $(document).ready(function() {
-    // $("a[rel^='prettyPhoto']").prettyPhoto();
-    $("div[rel^='prettyPhoto'] a").click(function() {
-      return false;
-    })
-    $("div[rel^='prettyPhoto'] a").prettyPhoto();
-  });
+}
+$(document).ready(function() {
+  // $("a[rel^='prettyPhoto']").prettyPhoto();
+  $("div[rel^='prettyPhoto'] a").click(function() {
+    return false;
+  })
+  $("div[rel^='prettyPhoto'] a").prettyPhoto();
+});
 $(document).on('click', '.carousel-button-left', function() {
   //$("a[rel^='prettyPhoto']").prettyPhoto();
   $("div[rel^='prettyPhoto'] a").prettyPhoto();
@@ -314,11 +309,10 @@ $(function() {
   alignCenter($('#spasibo'));
   alignCenter($('#pozdr'));
   $(window).resize(function() {
-      alignCenter($('#popup1'));
-      alignCenter($('#spasibo'));
-      alignCenter($('#pozdr'));
-    })
-    //$('#btn-close, #hide-layout').click(function() {
+    alignCenter($('#popup1'));
+    alignCenter($('#spasibo'));
+    alignCenter($('#pozdr'));
+  })
   $('#hide-layout').click(function() {
     $('#hide-layout, #popup1').fadeOut(300);
     $('.pop_name').val('Ваше имя');
@@ -326,8 +320,6 @@ $(function() {
   })
   $('#callback-spasibo, #hide-layout').click(function() {
     $('#hide-layout, #spasibo').fadeOut(300);
-    //$('.pop_name').css('color','#cccccc');
-    //$('.pop_tel').css('color','#cccccc');
     $('.pop_name').val('');
     $('.pop_tel').val('');
   })
@@ -344,19 +336,16 @@ $(function() {
     var name = $('.pop_name').val();
     var tel = $('.pop_tel').val();
     var type = $('.pop_type').val();
-    //Comagic.push(['addOfflineRequest', {name: name,  phone: tel, message: type }]);
     $.ajax({
       type: "POST",
       url: "forms.php",
       data: "name=" + name + "&tel=" + tel + "&f=" + type + "&subject=Вызвать замерщика",
       success: function(data) {
         if (data == 'ok') {
-          //alert ('Заявка успешно отправлена');
           $('#popup1').fadeOut(300);
           $('.pop_name').val('');
           $('.pop_tel').val('');
           $('#spasibo').fadeIn(300);
-          SendComagic(name, tel, type, '');
         } else {
           alert('Заявка успешно отправлена');
         };
@@ -370,19 +359,16 @@ $(function() {
     });
     var name = $('.pozdr_name').val();
     var tel = $('.pozdr_tel').val();
-    //Comagic.push(['addOfflineRequest', {name: name,  phone: tel, message: 'pozdr' }]);
     $.ajax({
       type: "POST",
       url: "forms.php",
       data: "name=" + name + "&tel=" + tel + '&f=pozdr&subject="Поздравляем 10% скидка"',
       success: function(data) {
         if (data == 'ok') {
-          //  alert ('Заявка успешно отправлена');
           $('.pozdr_name').val('');
           $('.pozdr_tel').val('');
           $('#pozdr').fadeOut(300);
           $('#spasibo').fadeIn(300);
-          SendComagic(name, tel, 'pozdr', '');
         } else {
           alert('Заявка успешно отправлена');
         };

@@ -106,7 +106,7 @@ $(".v_tel").inputmask("+7 (999) 999-99-99");
 $('#callback-send2').click(function() {
   var name = $('.v_name').val();
   var tel = $('.v_tel').val();
-  //Comagic.push(['addOfflineRequest', {name: name,  phone: tel, message: 'callback2014' }]);
+  //Comagic.push(['addOfflineRequest', {name: name,  phone: tel, message: 'callback2' }]);
   $.ajax({
     type: "POST",
     url: "forms.php",
