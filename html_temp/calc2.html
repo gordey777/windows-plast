@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Остекление лоджий Брянск</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div id="popup1" class="popup1" style="left: 440px; top: 50px;">
+    <div id="btn-close" class="f-close"> </div>
+    <div class="header white">ЗАКАЗАТЬ ЗВОНОК</div>
+    <input type="hidden" class="pop_type" value="">
+    <input class="pop_name" type="text" placeholder="Ваше имя" value="">
+    <input class="pop_tel" type="text" placeholder="Телефон" value="">
+    <div id="callback-send1" class="b_yellow">ЖДУ ЗВОНКА</div>
+  </div>
+  <div id="spasibo" class="spasibo" style="left: 461px; top: 50px;">
+    <div class="header">СПАСИБО!</div>
+    <div class="p1_msg">
+      Ваша заявка отправлена успешно.
+    </div>
+    <a id="callback-spasibo" class="btn b_red">ЗАКРЫТЬ</a>
+  </div>
+
+  <div id="hide-layout" class="hide-layout"></div>
+  <div class="section s-top">
+    <div class="content">
+      <div class="logo">
+        <a href="#">
+          <img src="img/logo.png" title="«Современные Окна»" alt="«Современные Окна»">
+        </a>
+      </div>
+      <div class="spisok">
+        <div class="fancy-select">
+          <select class="v_select fancified" style="width: 1px; height: 1px; display: block; position: absolute; top: 0px; left: 0px; opacity: 0;">
+            <option value="msk">Брянск</option>
+          </select>
+          <div class="trigger">Брянск</div>
+          <ul class="options">
+            <li data-raw-value="msk" class="selected">Брянск</li>
+          </ul>
+        </div>
+      </div>
+      <div class="vyzov">
+        <div class="st">
+          <a href="#">Рассчитать стоимость</a>
+        </div>
+        <div class="zam">
+          <a href="#">Вызвать замерщика</a>
+        </div>
+      </div>
+      <div class="tel">
+        <p class="white"> <a style="text-decoration:none;" class="white comagic_phone" href="#"><span class="lptracker_phone">8 900 363 66 88</span></a></p>
+        <div class="call">ВАМ ПЕРЕЗВОНИТЬ?</div>
+      </div>
+    </div>
+  </div>
+  <div class="section m_section">
+    <div class="content">
+      <div class="best1"></div>
+      <ul class="menu">
+
+        <li>
+          <div><a href="#">Пластиковые окна</a></div>
+
+        </li>
+        <li><a href="#">Остекление балконов</a></li>
+        <li><a href="#">Отделка лоджий</a></li>
+
+        <li>
+          <div><a href="#">Окна для коттеджа</a></div>
+
+        </li>
+
+        <li><a href="#">КОНТАКТЫ</a></li>
+        <li class="last "><a href="#">% Акции и скидки</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="scroll" onclick="$(&#39;.vyzov .zam a&#39;).click();">
+    <img src="img/besplatnyj_zamer.png">
+  </div>
+  <div class="toptop">
+    <br>наверх
+  </div>
+  <div class="section s20" style="padding-top: 10px">
+    <div class="content">
+      <div class="calc calc_balkon">
+        <div class="c_left">
+          <div class="ul_menu">
+            <ul class="calc_menu">
+              <li id="cb1" class="active">
+                <img src="img/cb1.png">
+              </li>
+              <li id="cb2" class="">
+                <img src="img/cb2.png">
+              </li>
+              <li id="cb3" class="">
+                <img src="img/cb3.png">
+              </li>
+              <li id="cb4" class="">
+                <img src="img/cb4.png">
+              </li>
+              <li id="cb5" class="">
+                <img src="img/cb5.png">
+              </li>
+              <li id="cb6" class="">
+                <img src="img/cb6.png">
+              </li>
+              <li id="cb7" class="">
+                <img src="img/cb7.png">
+              </li>
+            </ul>
+          </div>
+          <div class="clr"></div>
+          <div class="calc_main" style="background: url(img/cb7p.jpg) 50% 0% no-repeat;">
+          </div>
+          <div class="calc_height">
+          </div>
+          <div class="calc_width">
+          </div>
+        </div>
+        <div class="c_right">
+          <div class="sw">
+            <div class="sw_h">Калькулятор расчета стоимости:</div>
+            <div class="sw_block">
+              <div class="bl_ok inactive_"><a style="color:#333; text-decoration:none; " href="#">Окна</a></div>
+              <div class="blsw">
+                <div class="bl_sw ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                  <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 57px;"></span>
+                </div>
+              </div>
+              <div class="bl_bal active_">Балконы</div>
+              <div class="clr"></div>
+              <div class="sw_t1">Размеры (см)</div>
+              <input class="c_width" type="text" value="150">
+              <input class="c_height" type="text" value="120">
+              <div class="sw_t2"><span>ширина</span><span style="margin-left: 64px;">высота</span></div>
+            </div>
+          </div>
+          <div class="itogi">
+            <div class="i_txt1">
+              Стоимость всего:
+            </div>
+            <div class="ceny">
+              <div class="itogo">5949.-</div>
+              <div class="i_dop">
+                <div class="i_montaz">Монтаж: <span>1189 руб.</span></div>
+                <div class="i_otd">Отделка: <span>1784 руб.</span></div>
+              </div>
+            </div>
+            <div class="clr"></div>
+            <div class="i_rassr">
+              <a href="#" style="color: #2861dc;">
+                  в рассрочку <span>495</span> руб. в месяц
+                  </a>
+            </div>
+            <div class="i_dostavka">
+              Бесплатная доставка!
+            </div>
+          </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section s21">
+    <div class="content">
+      <div class="nazv">Успей купить по ценам 2014 года!</div>
+      <div class="otschet">
+        <div class="konec black">
+          До конца акции осталось:
+        </div>
+        <div class="s21_count">
+          <div id="countdown" class="countdownHolder">
+            <span class="countDays">
+
+              </span>
+            <span class="countHours">
+
+              </span>
+            <span class="countMinutes">
+
+              </span>
+            <span class="countSeconds">
+
+              </span>
+          </div>
+        </div>
+        <div class="days black">
+          <span>Часов</span>
+          <span style="margin-left: 61px;">Минут</span>
+          <span style="margin-left: 61px;">Секунд</span>
+        </div>
+      </div>
+      <div class="zakaz_vp" id="callback3">
+        <input class="v_name" type="text" value="" placeholder="Ваше имя">
+        <input class="v_tel" type="text" value="" placeholder="Телефон">
+        <a id="callback-send2" class="btn b_blue">Отправить</a>
+      </div>
+    </div>
+  </div>
+  <div class="section config_area">
+    <div class="content">
+      <div class="config-after">
+        <div class="after1">
+          <img src="img/metr.jpg">
+        </div>
+        <div class="after2">
+          <p class="ph">Бесплатный замер</p>
+          <p>
+            Технолог нашей компании произведет точный замер и расчет стоимости заказа в удобное для Вас время. Возможно заключение договора на дому.
+          </p>
+        </div>
+        <div class="after3">
+          <img src="img/k.jpg">
+        </div>
+        <div class="after4">
+          <p class="ph">Рассрочка 0%</p>
+          <p>
+            Заказывай окна уже сейчас! Воспользуйся беспроцентной рассрочкой без участия банка
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section s15">
+    <div class="content">
+      <h1 class="black">
+          <span>Преимущества заказа у нас</span>
+        </h1>
+      <div class="okno_mod w_blocks">
+        <div class="okno_b1 w_block hidden">
+          <div class="hh">
+            Собственное производство
+          </div>
+          <div class="tt">
+            Современное производственное оборудование позволяет изготавливать до 20000 м<sup>2</sup> в месяц!
+          </div>
+        </div>
+        <div class="okno_b2 w_block hidden">
+          <div class="hh">
+            Самые низкие цены
+          </div>
+          <div class="tt">
+            Стоимость продукции и услуг в среднем на 12% ниже рыночной. Мы гарантируем низкие цены!
+          </div>
+        </div>
+        <div class="okno_b3 w_block hidden">
+          <div class="hh">
+            Кратчайшие сроки
+          </div>
+          <div class="tt">
+            Срок изготовления пластиковых окон снижен до 5 рабочих дней!
+          </div>
+        </div>
+        <div class="okno_b4 w_block hidden">
+          <div class="hh">
+            Гарантия 100%
+          </div>
+          <div class="tt">
+            Гарантия на окна и комплектующие, а также производимые работы достигает 10 лет!
+          </div>
+        </div>
+        <div class="clr hidden"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section s30">
+    <div class="content">
+      <div class="txt">
+        <h1>Окна без предоплаты</h1>
+        <ul>
+          <li>Переплата по рассрочке 0 %</li>
+          <li>Комфортные условия оформления без участия банка</li>
+          <li>Удобные способы погашения</li>
+        </ul>
+      </div>
+      <a class="btn b_blue" href="#">Узнать подробности</a>
+    </div>
+  </div>
+  <div class="section s6">
+    <div class="content">
+      <h1 class="">Рассчитаем ваш заказ за 5 минут!</h1>
+      <div class="zakaz_vp" id="callback3">
+        <input class="v_name3" type="text" value="" placeholder="Ваше имя">
+        <input class="v_tel3" type="text" value="" placeholder="Телефон">
+        <a id="callback-send3" class="btn b_blue">Отправить заявку</a>
+      </div>
+    </div>
+  </div>
+  <div class="section s23">
+    <div class="content">
+      <div class="footer_menu">
+        <div class="f_block fm1">
+          <a href="#">Пластиковые окна</a>
+        </div>
+        <div class="f_block fm2">
+          <a href="#">Остекление балконов</a>
+        </div>
+        <div class="f_block fm3">
+          <a href="#">Отделка балконов</a>
+        </div>
+        <div class="f_block fm4">
+          <a href="#">Окна для коттеджа</a>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section s8">
+    <div class="content">
+      <div class="footer black center">
+        <div class="black d1">
+          Узнайте больше о скидках компании: <span class="comagic_phone"><span class="lptracker_phone">8 900 363 66 88</span></span>
+        </div>
+        <div class="black d2">
+          <!-- e-mail: dokna36@yandex.ru -->
+          <noindex>
+          </noindex>
+        </div>
+        <div class="d3">
+          Copyright © 2004—2015 «Современные Окна»
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.cookie.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/fancySelect.js"></script>
+  <script src="js/jquery.boutique.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.lockfixed.min.js"></script>
+  <script src="js/jquery.inputmask.min.js"></script>
+  <script src="js/jquery.countdown.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/jquery.scrollTo-min.js"></script>
+  <script src="js/calc2.js"></script>
+
+</body>
+
+</html>
