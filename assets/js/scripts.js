@@ -179,32 +179,33 @@ function grafic() {
 }
 
 var ii = 1;
+
+/*
 $(window).scroll(function() {
 
-  var blocks = $('.grafic');
+  if ( $('.grafic').length > 1 ) {
+    var blocks = $('.grafic');
 
-  var windowSize = $(window).height();
-  var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+    var windowSize = $(window).height();
+    var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
 
-  var viewportTop = $(scrollElem).scrollTop();
-  var viewportBottom = (viewportTop + windowSize);
-  var offset = 100;
+    var viewportTop = $(scrollElem).scrollTop();
+    var viewportBottom = (viewportTop + windowSize);
+    var offset = 100;
 
-  var elemTop = Math.round(blocks.offset().top) - offset;
-  var elemBottom = elemTop + (blocks.height());
+    var elemTop = Math.round(blocks.offset().top) - offset;
+    var elemBottom = elemTop + (blocks.height());
 
-  if ((elemTop < viewportBottom) && (elemBottom > viewportTop)) {
-
-    if (ii == 1) {
-      grafic();
-
-    }
-    ii = 0;
-
-  };
-
+    if ((elemTop < viewportBottom) && (elemBottom > viewportTop)) {
+      if (ii == 1) {
+        grafic();
+      }
+      ii = 0;
+    };
+  }
 
 });
+*/
 
 $(".v_tell").inputmask("+7 (999) 999-99-99");
 
