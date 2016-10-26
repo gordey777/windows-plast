@@ -6,17 +6,12 @@ var AUTOPREFIXER_BROWSERS = [
   'ie >= 8', 'ie_mob >= 10', 'ff >= 20', 'chrome >= 24', 'safari >= 5', 'opera >= 12', 'ios >= 7', 'android >= 2.3', '> 1%', 'last 4 versions', 'bb >= 10'
 ];
 
-if (htmlOWp === true) {
-  var basePaths = {
-    src: 'assets/',
-    dest: './html/'
-  };
-} else {
-  var basePaths = {
-    src: 'assets/',
-    dest: './wordpress/wp-content/themes/' + wpThemeName + '/'
-  };
-}
+
+var basePaths = {
+  src: 'assets/',
+  dest: './html/'
+};
+
 var paths = {
   images: {
     src: basePaths.src + 'img/',
@@ -238,7 +233,6 @@ gulp.task('watch', function() {
   gulp.watch(appFiles.styles, ['styles', reload]);
   gulp.watch(paths.sprite.src, ['styles', reload]);
   gulp.watch(paths.fonts.src, ['fonts', reload]);
-  gulp.watch(appFiles.scripts, ['scripts:development', reload]);
 });
 
 // Custom Plumber function for catching errors
