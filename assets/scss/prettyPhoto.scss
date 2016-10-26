@@ -1,0 +1,1445 @@
+/* ------------------------------------------------------------------------
+  This you can edit.
+------------------------------------------------------------------------- */
+
+/* ----------------------------------
+    Default Theme
+  ----------------------------------- */
+
+div.pp_default {
+  .pp_top {
+    height: 13px;
+    .pp_middle,
+    .pp_left,
+    .pp_right {
+      height: 13px;
+    }
+  }
+  .pp_bottom {
+    height: 13px;
+    .pp_left,
+    .pp_middle,
+    .pp_right {
+      height: 13px;
+    }
+  }
+  .pp_top {
+    .pp_left {
+      /* background: url(../img/prettyPhoto/default/sprite.html) -78px -93px no-repeat; */
+    }
+    .pp_middle {
+      /* background: url(../img/prettyPhoto/default/sprite_x.html) top left repeat-x; */
+    }
+    .pp_right {
+      /* background: url(../img/prettyPhoto/default/sprite.html) -112px -93px no-repeat; */
+    }
+  }
+  .pp_content .ppt {
+    color: #f8f8f8;
+  }
+  .pp_content_container {
+    .pp_left {
+      padding-left: 0;
+
+      background: none;
+    }
+    .pp_right {
+      padding-right: 0;
+
+      background: none;
+    }
+  }
+  .pp_content {
+    background-color: #fff;
+  }
+  .pp_next {
+    cursor: pointer;
+
+    background: url(../img/right.png) center right no-repeat;
+  }
+  .pp_previous {
+    cursor: pointer;
+
+    background: url(../img/left.png) center left no-repeat;
+  }
+  .pp_expand {
+    width: 28px;
+    height: 28px;
+
+    cursor: pointer;
+
+    /* background: url(../img/prettyPhoto/default/sprite.html) 0 -29px no-repeat; */
+    &:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/default/sprite.html) 0 -56px no-repeat; */
+    }
+  }
+  .pp_contract {
+    width: 28px;
+    height: 28px;
+
+    cursor: pointer;
+
+    /* background: url(../img/prettyPhoto/default/sprite.html) 0 -84px no-repeat; */
+    &:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/default/sprite.html) 0 -113px no-repeat; */
+    }
+  }
+  .pp_close {
+    width: 39px;
+    height: 39px;
+
+    cursor: pointer;
+
+    background: url(../img/close.png) 2px 1px no-repeat;
+  }
+  #pp_full_res .pp_inline {
+    color: #000;
+  }
+  .pp_gallery ul li {
+    a {
+      border: 1px solid #aaa;
+      /* background: url(../img/prettyPhoto/default/default_thumb.html) center center #f8f8f8; */
+      &:hover {
+        border-color: #fff;
+      }
+    }
+    &.selected a {
+      border-color: #fff;
+    }
+  }
+  .pp_social {
+    margin-top: 7px;
+  }
+  .pp_gallery a {
+    &.pp_arrow_previous,
+    &.pp_arrow_next {
+      position: static;
+      left: auto;
+    }
+  }
+  .pp_nav {
+    .pp_play {
+      width: 30px;
+      height: 30px;
+
+      /* background: url(../img/prettyPhoto/default/sprite.html) -51px 1px no-repeat; */
+    }
+    .pp_pause {
+      width: 30px;
+      height: 30px;
+
+      /* background: url(../img/prettyPhoto/default/sprite.html) -51px 1px no-repeat; */
+      background-position: -51px -29px;
+    }
+  }
+  .pp_details {
+    position: relative;
+  }
+  a {
+    &.pp_arrow_previous {
+      width: 20px;
+      height: 20px;
+      margin: 4px 0 0 0;
+
+      /* background: url(../img/prettyPhoto/default/sprite.html) -31px -3px no-repeat; */
+    }
+    &.pp_arrow_next {
+      left: 52px;
+
+      width: 20px;
+      height: 20px;
+      margin: 4px 0 0 0;
+
+      /* background: url(../img/prettyPhoto/default/sprite.html) -31px -3px no-repeat; */
+      background-position: -82px -3px;
+    }
+  }
+  .pp_content_container .pp_details {
+    margin-top: 5px;
+  }
+  .pp_nav {
+    position: relative;
+
+    clear: none;
+
+    width: 110px;
+    height: 30px;
+    .currentTextHolder {
+      font-family: Georgia;
+      font-size: 11px;
+      font-style: italic;
+      line-height: 25px;
+
+      position: absolute;
+      top: 2px;
+      left: 75px;
+
+      margin: 0;
+      padding: 0 0 0 10px;
+
+      color: #999;
+    }
+  }
+  .pp_close:hover {
+    opacity: .7;
+  }
+  .pp_nav {
+    .pp_play:hover,
+    .pp_pause:hover {
+      opacity: .7;
+    }
+  }
+  .pp_arrow_next:hover,
+  .pp_arrow_previous:hover {
+    opacity: .7;
+  }
+  .pp_description {
+    font-family: 'officinaserifcregular';
+    font-size: 30px;
+    /*font-weight: bold;*/
+    /*line-height: 21px;*/
+
+    margin: 5px 0;
+    padding-top: 5px;
+
+    text-align: center;
+
+    color: #fff;
+  }
+  .pp_bottom {
+    .pp_left {
+      /* background: url(../img/prettyPhoto/default/sprite.html) -78px -127px no-repeat; */
+    }
+    .pp_middle {
+      /* background: url(../img/prettyPhoto/default/sprite_x.html) bottom left repeat-x; */
+    }
+    .pp_right {
+      /* background: url(../img/prettyPhoto/default/sprite.html) -112px -127px no-repeat; */
+    }
+  }
+  .pp_loaderIcon {
+    /* background: url(../img/prettyPhoto/default/loader.html) center center no-repeat; */
+  }
+}
+
+/* Top left corner */
+
+/* Top pattern/color */
+
+/* Top right corner */
+
+/*  div.pp_default .pp_content_container .pp_left { background: url(../img/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y; padding-left: 13px; }
+  */
+
+/*  div.pp_default .pp_content_container .pp_right { background: url(../img/prettyPhoto/default/sprite_y.png) top right repeat-y; padding-right: 13px; }
+  */
+
+/* Content background */
+
+/* Next button */
+/*
+  div.pp_default .pp_next:hover { background: url(../img/prettyPhoto/right.png) center right  no-repeat; cursor: pointer; } /* Next button */
+/*
+  div.pp_default .pp_previous:hover { background: url(../img/prettyPhoto/left.png) center left no-repeat; cursor: pointer; } /* Previous button */
+
+/* Previous button */
+
+/* Expand button */
+
+/* Expand button hover */
+
+/* Contract button */
+
+/* Contract button hover */
+
+/* Close button */
+/*  div.pp_default .pp_close { width: 30px; height: 30px; background: url(../img/prettyPhoto/default/sprite.png) 2px 1px no-repeat; cursor: pointer; } /* Close button */
+
+/* The next arrow in the bottom nav */
+
+/*div.pp_default .pp_description{ font-size: 16px; font-weight: bold; line-height: 14px; margin: 5px 50px 5px 0; }
+  */
+
+/* Bottom left corner */
+
+/* Bottom pattern/color */
+
+/* Bottom right corner */
+
+/* Loader icon */
+
+.ppt span {
+  font-family: 'officinaserifcbold';
+
+  color: yellow;
+}
+
+/* ----------------------------------
+    Light Rounded Theme
+  ----------------------------------- */
+
+div {
+  &.light_rounded {
+    .pp_top {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -88px -53px no-repeat; */
+      }
+      .pp_middle {
+        background: #fff;
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -110px -53px no-repeat; */
+      }
+    }
+    .pp_content .ppt {
+      color: #000;
+    }
+    .pp_content_container {
+      .pp_left,
+      .pp_right {
+        background: #fff;
+      }
+    }
+    .pp_content {
+      background-color: #fff;
+    }
+    .pp_next:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_rounded/btnNext.html) center right no-repeat; */
+    }
+    .pp_previous:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_rounded/btnPrevious.html) center left no-repeat; */
+    }
+    .pp_expand {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -31px -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -31px -47px no-repeat; */
+      }
+    }
+    .pp_contract {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_rounded/sprite.html) 0 -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) 0 -47px no-repeat; */
+      }
+    }
+    .pp_close {
+      width: 75px;
+      height: 22px;
+
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -1px -1px no-repeat; */
+    }
+    .pp_details {
+      position: relative;
+    }
+    .pp_description {
+      margin-right: 85px;
+    }
+    #pp_full_res .pp_inline {
+      color: #000;
+    }
+    .pp_gallery a {
+      &.pp_arrow_previous,
+      &.pp_arrow_next {
+        margin-top: 12px !important;
+      }
+    }
+    .pp_nav {
+      .pp_play {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -1px -100px no-repeat; */
+      }
+      .pp_pause {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -24px -100px no-repeat; */
+      }
+    }
+    .pp_arrow_previous {
+      /* background: url(../img/prettyPhoto/light_rounded/sprite.html) 0 -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: 0 -87px;
+      }
+    }
+    .pp_arrow_next {
+      /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -22px -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: -22px -87px;
+      }
+    }
+    .pp_bottom {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -88px -80px no-repeat; */
+      }
+      .pp_middle {
+        background: #fff;
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/light_rounded/sprite.html) -110px -80px no-repeat; */
+      }
+    }
+    .pp_loaderIcon {
+      /* background: url(../img/prettyPhoto/light_rounded/loader.html) center center no-repeat; */
+    }
+  }
+  &.dark_rounded {
+    .pp_top {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -88px -53px no-repeat; */
+      }
+      .pp_middle {
+        /* background: url(../img/prettyPhoto/dark_rounded/contentPattern.html) top left repeat; */
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -110px -53px no-repeat; */
+      }
+    }
+    .pp_content_container {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/dark_rounded/contentPattern.html) top left repeat-y; */
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/dark_rounded/contentPattern.html) top right repeat-y; */
+      }
+    }
+    .pp_content {
+      /* background: url(../img/prettyPhoto/dark_rounded/contentPattern.html) top left repeat; */
+    }
+    .pp_next:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_rounded/btnNext.html) center right no-repeat; */
+    }
+    .pp_previous:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_rounded/btnPrevious.html) center left no-repeat; */
+    }
+    .pp_expand {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -31px -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -31px -47px no-repeat; */
+      }
+    }
+    .pp_contract {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) 0 -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) 0 -47px no-repeat; */
+      }
+    }
+    .pp_close {
+      width: 75px;
+      height: 22px;
+
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -1px -1px no-repeat; */
+    }
+    .pp_details {
+      position: relative;
+    }
+    .pp_description {
+      margin-right: 85px;
+    }
+    .currentTextHolder {
+      color: #c4c4c4;
+    }
+    .pp_description,
+    #pp_full_res .pp_inline {
+      color: #fff;
+    }
+    .pp_gallery a {
+      &.pp_arrow_previous,
+      &.pp_arrow_next {
+        margin-top: 12px !important;
+      }
+    }
+    .pp_nav {
+      .pp_play {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -1px -100px no-repeat; */
+      }
+      .pp_pause {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -24px -100px no-repeat; */
+      }
+    }
+    .pp_arrow_previous {
+      /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) 0 -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: 0 -87px;
+      }
+    }
+    .pp_arrow_next {
+      /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -22px -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: -22px -87px;
+      }
+    }
+    .pp_bottom {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -88px -80px no-repeat; */
+      }
+      .pp_middle {
+        /* background: url(../img/prettyPhoto/dark_rounded/contentPattern.html) top left repeat; */
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/dark_rounded/sprite.html) -110px -80px no-repeat; */
+      }
+    }
+    .pp_loaderIcon {
+      /* background: url(../img/prettyPhoto/dark_rounded/loader.html) center center no-repeat; */
+    }
+  }
+  &.dark_square {
+    .pp_left,
+    .pp_middle,
+    .pp_right,
+    .pp_content {
+      background: #000;
+    }
+    .currentTextHolder {
+      color: #c4c4c4;
+    }
+    .pp_description {
+      color: #fff;
+    }
+    .pp_loaderIcon {
+      /* background: url(../img/prettyPhoto/dark_square/loader.html) center center no-repeat; */
+    }
+    .pp_expand {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_square/sprite.html) -31px -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/dark_square/sprite.html) -31px -47px no-repeat; */
+      }
+    }
+    .pp_contract {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_square/sprite.html) 0 -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/dark_square/sprite.html) 0 -47px no-repeat; */
+      }
+    }
+    .pp_close {
+      width: 75px;
+      height: 22px;
+
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_square/sprite.html) -1px -1px no-repeat; */
+    }
+    .pp_details {
+      position: relative;
+    }
+    .pp_description {
+      margin: 0 85px 0 0;
+    }
+    #pp_full_res .pp_inline {
+      color: #fff;
+    }
+    .pp_gallery a {
+      &.pp_arrow_previous,
+      &.pp_arrow_next {
+        margin-top: 12px !important;
+      }
+    }
+    .pp_nav {
+      clear: none;
+      .pp_play {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/dark_square/sprite.html) -1px -100px no-repeat; */
+      }
+      .pp_pause {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/dark_square/sprite.html) -24px -100px no-repeat; */
+      }
+    }
+    .pp_arrow_previous {
+      /* background: url(../img/prettyPhoto/dark_square/sprite.html) 0 -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: 0 -87px;
+      }
+    }
+    .pp_arrow_next {
+      /* background: url(../img/prettyPhoto/dark_square/sprite.html) -22px -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: -22px -87px;
+      }
+    }
+    .pp_next:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_square/btnNext.html) center right no-repeat; */
+    }
+    .pp_previous:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/dark_square/btnPrevious.html) center left no-repeat; */
+    }
+  }
+  &.light_square {
+    .pp_left,
+    .pp_middle,
+    .pp_right {
+      background: #fff;
+    }
+    .pp_content {
+      background: #fff;
+      .ppt {
+        color: #000;
+      }
+    }
+    .pp_expand {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_square/sprite.html) -31px -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/light_square/sprite.html) -31px -47px no-repeat; */
+      }
+    }
+    .pp_contract {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_square/sprite.html) 0 -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/light_square/sprite.html) 0 -47px no-repeat; */
+      }
+    }
+    .pp_close {
+      width: 75px;
+      height: 22px;
+
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_square/sprite.html) -1px -1px no-repeat; */
+    }
+    .pp_details {
+      position: relative;
+    }
+    .pp_description {
+      margin-right: 85px;
+    }
+    #pp_full_res .pp_inline {
+      color: #000;
+    }
+    .pp_gallery a {
+      &.pp_arrow_previous,
+      &.pp_arrow_next {
+        margin-top: 12px !important;
+      }
+    }
+    .pp_nav {
+      .pp_play {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/light_square/sprite.html) -1px -100px no-repeat; */
+      }
+      .pp_pause {
+        width: 14px;
+        height: 15px;
+
+        /* background: url(../img/prettyPhoto/light_square/sprite.html) -24px -100px no-repeat; */
+      }
+    }
+    .pp_arrow_previous {
+      /* background: url(../img/prettyPhoto/light_square/sprite.html) 0 -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: 0 -87px;
+      }
+    }
+    .pp_arrow_next {
+      /* background: url(../img/prettyPhoto/light_square/sprite.html) -22px -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: -22px -87px;
+      }
+    }
+    .pp_next:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_square/btnNext.html) center right no-repeat; */
+    }
+    .pp_previous:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/light_square/btnPrevious.html) center left no-repeat; */
+    }
+    .pp_loaderIcon {
+      /* background: url(../img/prettyPhoto/light_rounded/loader.html) center center no-repeat; */
+    }
+  }
+  &.facebook {
+    .pp_top {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) -88px -53px no-repeat; */
+      }
+      .pp_middle {
+        /* background: url(../img/prettyPhoto/facebook/contentPatternTop.html) top left repeat-x; */
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) -110px -53px no-repeat; */
+      }
+    }
+    .pp_content .ppt {
+      color: #000;
+    }
+    .pp_content_container {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/facebook/contentPatternLeft.html) top left repeat-y; */
+      }
+      .pp_right {
+        /* background: url(../img/prettyPhoto/facebook/contentPatternRight.html) top right repeat-y; */
+      }
+    }
+    .pp_content {
+      background: #fff;
+    }
+    .pp_expand {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/facebook/sprite.html) -31px -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) -31px -47px no-repeat; */
+      }
+    }
+    .pp_contract {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/facebook/sprite.html) 0 -26px no-repeat; */
+      &:hover {
+        cursor: pointer;
+
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) 0 -47px no-repeat; */
+      }
+    }
+    .pp_close {
+      width: 22px;
+      height: 22px;
+
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/facebook/sprite.html) -1px -1px no-repeat; */
+    }
+    .pp_details {
+      position: relative;
+    }
+    .pp_description {
+      margin: 0 37px 0 0;
+    }
+    #pp_full_res .pp_inline {
+      color: #000;
+    }
+    .pp_loaderIcon {
+      /* background: url(../img/prettyPhoto/facebook/loader.html) center center no-repeat; */
+    }
+    .pp_arrow_previous {
+      width: 22px;
+      height: 22px;
+      margin-top: 0;
+
+      /* background: url(../img/prettyPhoto/facebook/sprite.html) 0 -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: 0 -96px;
+      }
+    }
+    .pp_arrow_next {
+      width: 22px;
+      height: 22px;
+      margin-top: 0;
+
+      /* background: url(../img/prettyPhoto/facebook/sprite.html) -32px -71px no-repeat; */
+      &.disabled {
+        cursor: default;
+
+        background-position: -32px -96px;
+      }
+    }
+    .pp_nav {
+      margin-top: 0;
+      p {
+        font-size: 15px;
+
+        padding: 0 3px 0 4px;
+      }
+      .pp_play {
+        width: 22px;
+        height: 22px;
+
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) -1px -123px no-repeat; */
+      }
+      .pp_pause {
+        width: 22px;
+        height: 22px;
+
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) -32px -123px no-repeat; */
+      }
+    }
+    .pp_next:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/facebook/btnNext.html) center right no-repeat; */
+    }
+    .pp_previous:hover {
+      cursor: pointer;
+
+      /* background: url(../img/prettyPhoto/facebook/btnPrevious.html) center left no-repeat; */
+    }
+    .pp_bottom {
+      .pp_left {
+        /* background: url(../img/prettyPhoto/facebook/sprite.html) -88px -80px no-repeat; */
+      }
+      .pp_middle {
+        /* background: url(../img/prettyPhoto/facebook/contentPatternBottom.html) top left repeat-x; */
+      }
+      .pp_right {
+        background: url(../img/prettyPhoto/facebook/sprite.html) -110px -80px no-repeat;
+      }
+    }
+  }
+  &.pp_pic_holder a:focus {
+    outline: none;
+  }
+  &.pp_overlay {
+    position: fixed;
+    z-index: 9500;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 3000px;
+    height: 2000px;
+
+    background: #000;
+  }
+  &.pp_pic_holder {
+    position: absolute;
+    z-index: 10000;
+
+    display: none;
+
+    width: 100px;
+  }
+}
+
+/* Top left corner */
+
+/* Top pattern/color */
+
+/* Top right corner */
+
+/* Content background */
+
+/* Next button */
+
+/* Previous button */
+
+/* Expand button */
+
+/* Expand button hover */
+
+/* Contract button */
+
+/* Contract button hover */
+
+/* Close button */
+
+/* The previous arrow in the bottom nav */
+
+/* The next arrow in the bottom nav */
+
+/* Bottom left corner */
+
+/* Bottom pattern/color */
+
+/* Bottom right corner */
+
+/* Loader icon */
+
+/* ----------------------------------
+    Dark Rounded Theme
+  ----------------------------------- */
+
+/* Top left corner */
+
+/* Top pattern/color */
+
+/* Top right corner */
+
+/* Left Content background */
+
+/* Right Content background */
+
+/* Content background */
+
+/* Next button */
+
+/* Previous button */
+
+/* Expand button */
+
+/* Expand button hover */
+
+/* Contract button */
+
+/* Contract button hover */
+
+/* Close button */
+
+/* The previous arrow in the bottom nav */
+
+/* The next arrow in the bottom nav */
+
+/* Bottom left corner */
+
+/* Bottom pattern/color */
+
+/* Bottom right corner */
+
+/* Loader icon */
+
+/* ----------------------------------
+    Dark Square Theme
+  ----------------------------------- */
+
+/* Loader icon */
+
+/* Expand button */
+
+/* Expand button hover */
+
+/* Contract button */
+
+/* Contract button hover */
+
+/* Close button */
+
+/* The previous arrow in the bottom nav */
+
+/* The next arrow in the bottom nav */
+
+/* Next button */
+
+/* Previous button */
+
+/* ----------------------------------
+    Light Square Theme
+  ----------------------------------- */
+
+/* Expand button */
+
+/* Expand button hover */
+
+/* Contract button */
+
+/* Contract button hover */
+
+/* Close button */
+
+/* The previous arrow in the bottom nav */
+
+/* The next arrow in the bottom nav */
+
+/* Next button */
+
+/* Previous button */
+
+/* Loader icon */
+
+/* ----------------------------------
+    Facebook style Theme
+  ----------------------------------- */
+
+/* Top left corner */
+
+/* Top pattern/color */
+
+/* Top right corner */
+
+/* Content background */
+
+/* Content background */
+
+/* Content background */
+
+/* Expand button */
+
+/* Expand button hover */
+
+/* Contract button */
+
+/* Contract button hover */
+
+/* Close button */
+
+/* Loader icon */
+
+/* The previous arrow in the bottom nav */
+
+/* The next arrow in the bottom nav */
+
+/* Next button */
+
+/* Previous button */
+
+/* Bottom left corner */
+
+/* Bottom pattern/color */
+
+/* Bottom right corner */
+
+/* ------------------------------------------------------------------------
+  DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+/*
+  div.pp_overlay {
+    background: #000;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9500;
+  }
+  */
+
+.pp_top {
+  position: relative;
+
+  height: 20px;
+}
+
+* html .pp_top {
+  padding: 0 20px;
+}
+
+.pp_top {
+  .pp_left {
+    position: absolute;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+  }
+  .pp_middle {
+    position: absolute;
+    right: 20px;
+    left: 20px;
+
+    height: 20px;
+  }
+}
+
+* html .pp_top .pp_middle {
+  position: static;
+  left: 0;
+}
+
+.pp_top .pp_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+
+  width: 20px;
+  height: 20px;
+}
+
+.pp_content {
+  min-width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+/*.pp_content { height: 40px; min-width: 40px;}*/
+
+* html .pp_content {
+  width: 40px;
+}
+
+.pp_fade {
+  display: none;
+}
+
+.pp_content_container {
+  position: relative;
+
+  width: 100%;
+
+  text-align: left;
+  .pp_left {
+    padding-left: 20px;
+  }
+  .pp_right {
+    padding-right: 20px;
+  }
+  .pp_details {
+    float: left;
+
+    margin: 10px 0 2px 0;
+  }
+}
+
+.pp_description {
+  display: none;
+
+  margin: 0;
+}
+
+.pp_social {
+  float: left;
+
+  margin: 0;
+  .facebook {
+    float: left;
+    overflow: hidden;
+
+    width: 55px;
+    margin-left: 5px;
+  }
+  .twitter {
+    float: left;
+  }
+}
+
+.pp_nav {
+  float: left;
+  clear: right;
+
+  margin: 3px 10px 0 0;
+  p {
+    float: left;
+
+    margin: 2px 4px;
+
+    white-space: nowrap;
+  }
+  .pp_play,
+  .pp_pause {
+    float: left;
+
+    margin-right: 4px;
+
+    text-indent: -10000px;
+  }
+}
+
+a {
+  &.pp_arrow_previous,
+  &.pp_arrow_next {
+    display: block;
+    float: left;
+    overflow: hidden;
+
+    width: 14px;
+    height: 15px;
+    margin-top: 3px;
+
+    text-indent: -10000px;
+  }
+}
+
+.pp_hoverContainer {
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+
+  width: 100%;
+}
+
+.pp_gallery {
+  position: absolute;
+  z-index: 10000;
+  left: 50%;
+
+  display: none;
+
+  margin-top: -50px;
+  div {
+    position: relative;
+
+    float: left;
+    overflow: hidden;
+  }
+  ul {
+    position: relative;
+
+    float: left;
+
+    height: 35px;
+    margin: 0 0 0 5px;
+    padding: 0;
+
+    white-space: nowrap;
+    a {
+      display: block;
+      float: left;
+      overflow: hidden;
+
+      height: 33px;
+
+      border: 1px #000 solid;
+      border: 1px rgba(0, 0, 0, .5) solid;
+      &:hover {
+        border-color: #fff;
+      }
+    }
+  }
+  li.selected a {
+    border-color: #fff;
+  }
+  ul a img {
+    border: 0;
+  }
+  li {
+    display: block;
+    float: left;
+
+    margin: 0 5px 0 0;
+    padding: 0;
+    &.default a {
+      display: block;
+
+      width: 50px;
+      height: 33px;
+
+      /* background: url(../img/prettyPhoto/facebook/default_thumbnail.html) 0 0 no-repeat; */
+      img {
+        display: none;
+      }
+    }
+  }
+  .pp_arrow_previous,
+  .pp_arrow_next {
+    margin-top: 7px !important;
+  }
+}
+
+a {
+  &.pp_next {
+    display: block;
+    float: right;
+
+    width: 40px;
+    height: 40px;
+    margin-top: 215px;
+    margin-right: -65px;
+
+    text-indent: -10000px;
+  }
+  &.pp_previous {
+    display: block;
+    float: left;
+
+    width: 40px;
+    height: 40px;
+    margin-top: 215px;
+    margin-left: -65px;
+
+    text-indent: -10000px;
+  }
+  &.pp_expand,
+  &.pp_contract {
+    position: absolute;
+    z-index: 20000;
+    top: 10px;
+    right: 30px;
+
+    display: none;
+
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+    text-indent: -10000px;
+  }
+  &.pp_close {
+    line-height: 22px;
+
+    position: absolute;
+    z-index: 1;
+    top: -34px;
+    right: 9px;
+
+    display: block;
+
+    text-indent: -10000px;
+  }
+}
+
+/*
+    a.pp_next {
+      background: url(../img/prettyPhoto/right.png) 10000px 10000px no-repeat;
+      display: block;
+      float: right;
+      height: 100%;
+      text-indent: -10000px;
+      width: 49%;
+    }
+  */
+
+/*
+    a.pp_previous {
+      background: url(../img/prettyPhoto/left.png) 10000px 10000px no-repeat;
+      display: block;
+      float: left;
+      height: 100%;
+      text-indent: -10000px;
+      width: 49%;
+    }
+    */
+
+/*
+    a.pp_close {
+      position: absolute; right: 0; top: 0;
+      display: block;
+      line-height:22px;
+      text-indent: -10000px;
+    }
+  */
+
+.pp_bottom {
+  position: relative;
+
+  height: 60px !important;
+}
+
+* html .pp_bottom {
+  padding: 0 20px;
+}
+
+.pp_bottom {
+  .pp_left {
+    position: absolute;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+  }
+  .pp_middle {
+    position: absolute;
+    right: 20px;
+    left: 20px;
+
+    height: 20px;
+  }
+}
+
+* html .pp_bottom .pp_middle {
+  position: static;
+  left: 0;
+}
+
+.pp_bottom .pp_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+
+  width: 20px;
+  height: 20px;
+}
+
+.pp_loaderIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+
+  width: 24px;
+  height: 24px;
+  margin: -12px 0 0 -12px;
+}
+
+#pp_full_res {
+  line-height: 1 !important;
+  .pp_inline {
+    text-align: left;
+    p {
+      margin: 0 0 15px 0;
+    }
+  }
+}
+
+div.ppt {
+  font-family: 'officinaserifcregular';
+  font-size: 24px;
+
+  z-index: 9999;
+
+  display: none;
+
+  margin: 0 0 5px 15px;
+
+  text-align: center;
+
+  color: #fff;
+}

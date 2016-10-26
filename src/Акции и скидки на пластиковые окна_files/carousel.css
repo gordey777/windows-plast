@@ -1,0 +1,205 @@
+.carousel  {
+   max-width: 1200px; /* ÑˆÐ¸Ñ€Ð¸Ð½Ð° Ð²ÑÐµÐ³Ð¾ Ð±Ð»Ð¾ÐºÐ° */
+   margin: 20px auto 35px;
+   width:100%;
+}
+
+.s4 .carousel  {
+	background:url('../img/gal_pic_bg.png') no-repeat;
+   max-width: 1200px; /* ÑˆÐ¸Ñ€Ð¸Ð½Ð° Ð²ÑÐµÐ³Ð¾ Ð±Ð»Ð¾ÐºÐ° */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:1166px;
+   height:200px;
+
+
+}
+.gal_okna .carousel  {
+   max-width: 1200px; /* ÑˆÐ¸Ñ€Ð¸Ð½Ð° Ð²ÑÐµÐ³Ð¾ Ð±Ð»Ð¾ÐºÐ° */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:100%;
+}
+
+.k_gal .carousel  {
+   max-width: 1200px; /* ÑˆÐ¸Ñ€Ð¸Ð½Ð° Ð²ÑÐµÐ³Ð¾ Ð±Ð»Ð¾ÐºÐ° */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:100%;
+}
+
+
+.s4 .carousel-wrapper {
+    margin: 0 60px 10px 60px; /* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð´Ð»Ñ ÑÑ‚Ñ€ÐµÐ»Ð¾Ðº */
+   overflow: hidden; /* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ, Ð²Ñ‹Ñ…Ð¾Ð´ÑÑ‰ÐµÐµ Ð·Ð° Ñ€Ð°Ð¼ÐºÐ¸ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ */
+   position:relative;
+   width:1048px;
+   padding-top: 10px;
+}
+
+.carousel-wrapper {
+   margin: 10px 44px; /* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð´Ð»Ñ ÑÑ‚Ñ€ÐµÐ»Ð¾Ðº */
+   overflow: hidden; /* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ, Ð²Ñ‹Ñ…Ð¾Ð´ÑÑ‰ÐµÐµ Ð·Ð° Ñ€Ð°Ð¼ÐºÐ¸ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ */
+   position:relative;
+   width:1112px;
+}
+
+.gal_okna .carousel-wrapper {
+     margin: 0 44px 10px 48px; /* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð´Ð»Ñ ÑÑ‚Ñ€ÐµÐ»Ð¾Ðº */
+   overflow: hidden; /* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ, Ð²Ñ‹Ñ…Ð¾Ð´ÑÑ‰ÐµÐµ Ð·Ð° Ñ€Ð°Ð¼ÐºÐ¸ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ */
+   position:relative;
+   width:1112px;
+}
+
+.k_gal .carousel-wrapper {
+     margin: 0 44px 10px 48px; /* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð´Ð»Ñ ÑÑ‚Ñ€ÐµÐ»Ð¾Ðº */
+   overflow: hidden; /* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ, Ð²Ñ‹Ñ…Ð¾Ð´ÑÑ‰ÐµÐµ Ð·Ð° Ñ€Ð°Ð¼ÐºÐ¸ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ */
+   position:relative;
+   width:1109px;
+}
+
+.carousel-items {
+   width: 10000px; /* ÑƒÑÑ‚Ð°Ð½Ð°Ð²Ð»Ð¸Ð²Ð°ÐµÐ¼ Ð±Ð¾Ð»ÑŒÑˆÑƒÑŽ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ Ð´Ð»Ñ Ð½Ð°Ð±Ð¾Ñ€Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² */
+   position: relative; /* Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ð¾Ð½Ð¸Ñ€ÑƒÐµÐ¼ Ð±Ð»Ð¾Ðº Ð¾Ñ‚Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ ÐºÐ°Ñ€ÑƒÑÐµÐ»Ð¸ */
+}
+.s3 .carousel-block {
+   float: left; /* Ð²Ñ‹ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°ÐµÐ¼ Ð²ÑÐµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ ÐºÐ°Ñ€ÑƒÑÐµÐ»Ð¸ Ð² Ñ€ÑÐ´ */
+   width: 365px; /* Ð·Ð°Ð´Ð°Ñ‘Ð¼ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° */
+   position:relative;
+   
+   padding: 10px 10px 10px 0px; /* Ð´ÐµÐ»Ð°ÐµÐ¼ Ð¾ÑÑ‚ÑƒÐ¿Ñ‹, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð½Ðµ ÑÐ»Ð¸Ð²Ð°Ð»Ð¸ÑÑŒ */
+
+}
+.s4 .carousel-block {
+   float: left; /* Ð²Ñ‹ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°ÐµÐ¼ Ð²ÑÐµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ ÐºÐ°Ñ€ÑƒÑÐµÐ»Ð¸ Ð² Ñ€ÑÐ´ */
+   width: 180px; /* Ð·Ð°Ð´Ð°Ñ‘Ð¼ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° */
+   padding: 10px 37px 10px 0px; /* Ð´ÐµÐ»Ð°ÐµÐ¼ Ð¾ÑÑ‚ÑƒÐ¿Ñ‹, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð½Ðµ ÑÐ»Ð¸Ð²Ð°Ð»Ð¸ÑÑŒ */
+}
+.gal_okna .carousel-block {
+   float: left; /* Ð²Ñ‹ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°ÐµÐ¼ Ð²ÑÐµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ ÐºÐ°Ñ€ÑƒÑÐµÐ»Ð¸ Ð² Ñ€ÑÐ´ */
+   width: 275px; /* Ð·Ð°Ð´Ð°Ñ‘Ð¼ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° */
+   padding: 10px 10px 10px 0px; /* Ð´ÐµÐ»Ð°ÐµÐ¼ Ð¾ÑÑ‚ÑƒÐ¿Ñ‹, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð½Ðµ ÑÐ»Ð¸Ð²Ð°Ð»Ð¸ÑÑŒ */
+}
+
+.k_gal .carousel-block {
+   float: left; /* Ð²Ñ‹ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°ÐµÐ¼ Ð²ÑÐµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ ÐºÐ°Ñ€ÑƒÑÐµÐ»Ð¸ Ð² Ñ€ÑÐ´ */
+   width: 213px; /* Ð·Ð°Ð´Ð°Ñ‘Ð¼ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° */
+   padding: 10px 10px 10px 0px; /* Ð´ÐµÐ»Ð°ÐµÐ¼ Ð¾ÑÑ‚ÑƒÐ¿Ñ‹, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð½Ðµ ÑÐ»Ð¸Ð²Ð°Ð»Ð¸ÑÑŒ */
+}
+
+.carousel-block img{
+   /* display:block;*/
+   max-width:365px;
+   max-height:433px;
+}
+ 
+/*********** BUTTONS ***********/
+.s3 .carousel-button-left a, .s3 .carousel-button-right a{
+   width: 32px; 
+   height: 59px; 
+   position: relative;
+   top: 190px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.s4 .carousel-button-left a, .s4 .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 63px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.gal_okna .carousel-button-left a, .gal_okna .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 113px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.k_gal .carousel-button-left a, .k_gal .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 113px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.gal_okna.balkon .carousel-button-left a, .gal_okna.balkon .carousel-button-right a{
+top:70px;
+}
+
+.k_gal .carousel-button-left a, .k_gal .carousel-button-right a{
+top:70px;
+}
+
+.s4 .carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left_big.png);
+	left: 9px;   
+}
+
+.s4 .carousel-button-left a:hover{
+	background: url(../img/carousel-left_big.png); 
+	left: 9px;
+}
+
+
+.s4 .carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right_big.png); 
+   right: 9px;
+}
+
+.s4 .carousel-button-right a:hover{
+   background: url(../img/carousel-right_big.png); 
+   right: 9px;
+}
+
+.carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left.png); 
+}
+
+.carousel-button-left a:hover{
+	background: url(../img/carousel-left_h.html); 
+}
+
+
+.carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right.png); 
+}
+
+.carousel-button-right a:hover{
+   background: url(../img/carousel-right_h.png); 
+}
+
+
+.k_gal .carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left_b.png); 
+}
+
+.k_gal .carousel-button-left a:hover{
+	background: url(../img/carousel-left.png); 
+}
+
+
+.k_gal .carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right_b.png); 
+}
+
+.k_gal .carousel-button-right a:hover{
+   background: url(../img/carousel-right.png); 
+}
+ 
+/*********** SHADOW ***********/
+.shadow{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}

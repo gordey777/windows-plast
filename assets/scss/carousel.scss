@@ -1,0 +1,269 @@
+.carousel {
+  width: 100%;
+  max-width: 1200px;
+  /* ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├Р┬░ ├Р┬▓├С┬Б├Р┬╡├Р┬│├Р┬╛ ├Р┬▒├Р┬╗├Р┬╛├Р┬║├Р┬░ */
+  margin: 20px auto 35px;
+}
+
+.s4 .carousel {
+  /*margin: 20px auto 35px;*/
+  width: 1166px;
+  max-width: 1200px;
+  /* ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├Р┬░ ├Р┬▓├С┬Б├Р┬╡├Р┬│├Р┬╛ ├Р┬▒├Р┬╗├Р┬╛├Р┬║├Р┬░ */
+  height: 200px;
+  margin: 30px auto 0;
+
+  background: url('../img/gal_pic_bg.png') no-repeat;
+}
+
+.gal_okna .carousel,
+.k_gal .carousel {
+  /*margin: 20px auto 35px;*/
+  width: 100%;
+  max-width: 1200px;
+  /* ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├Р┬░ ├Р┬▓├С┬Б├Р┬╡├Р┬│├Р┬╛ ├Р┬▒├Р┬╗├Р┬╛├Р┬║├Р┬░ */
+  margin: 30px auto 0;
+}
+
+.s4 .carousel-wrapper {
+  position: relative;
+
+  overflow: hidden;
+  /* ├С┬Б├Р┬║├СтВм├СтА╣├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├С┬Б├Р┬╛├Р┬┤├Р┬╡├СтВм├Р┬╢├Р┬╕├Р┬╝├Р┬╛├Р┬╡, ├Р┬▓├СтА╣├СтАж├Р┬╛├Р┬┤├С┬П├СтА░├Р┬╡├Р┬╡ ├Р┬╖├Р┬░ ├СтВм├Р┬░├Р┬╝├Р┬║├Р┬╕ ├Р┬╛├С┬Б├Р┬╜├Р┬╛├Р┬▓├Р┬╜├Р┬╛├Р┬╣ ├Р┬╛├Р┬▒├Р┬╗├Р┬░├С┬Б├СтАЪ├Р┬╕ */
+
+  width: 1048px;
+  margin: 0 60px 10px 60px;
+  /* ├Р┬╛├СтАЪ├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣ ├Р┬┤├Р┬╗├С┬П ├С┬Б├СтАЪ├СтВм├Р┬╡├Р┬╗├Р┬╛├Р┬║ */
+  padding-top: 10px;
+}
+
+.carousel-wrapper {
+  position: relative;
+
+  overflow: hidden;
+  /* ├С┬Б├Р┬║├СтВм├СтА╣├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├С┬Б├Р┬╛├Р┬┤├Р┬╡├СтВм├Р┬╢├Р┬╕├Р┬╝├Р┬╛├Р┬╡, ├Р┬▓├СтА╣├СтАж├Р┬╛├Р┬┤├С┬П├СтА░├Р┬╡├Р┬╡ ├Р┬╖├Р┬░ ├СтВм├Р┬░├Р┬╝├Р┬║├Р┬╕ ├Р┬╛├С┬Б├Р┬╜├Р┬╛├Р┬▓├Р┬╜├Р┬╛├Р┬╣ ├Р┬╛├Р┬▒├Р┬╗├Р┬░├С┬Б├СтАЪ├Р┬╕ */
+
+  width: 1112px;
+  margin: 10px 44px;
+  /* ├Р┬╛├СтАЪ├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣ ├Р┬┤├Р┬╗├С┬П ├С┬Б├СтАЪ├СтВм├Р┬╡├Р┬╗├Р┬╛├Р┬║ */
+}
+
+.gal_okna .carousel-wrapper {
+  position: relative;
+
+  overflow: hidden;
+  /* ├С┬Б├Р┬║├СтВм├СтА╣├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├С┬Б├Р┬╛├Р┬┤├Р┬╡├СтВм├Р┬╢├Р┬╕├Р┬╝├Р┬╛├Р┬╡, ├Р┬▓├СтА╣├СтАж├Р┬╛├Р┬┤├С┬П├СтА░├Р┬╡├Р┬╡ ├Р┬╖├Р┬░ ├СтВм├Р┬░├Р┬╝├Р┬║├Р┬╕ ├Р┬╛├С┬Б├Р┬╜├Р┬╛├Р┬▓├Р┬╜├Р┬╛├Р┬╣ ├Р┬╛├Р┬▒├Р┬╗├Р┬░├С┬Б├СтАЪ├Р┬╕ */
+
+  width: 1112px;
+  margin: 0 44px 10px 48px;
+  /* ├Р┬╛├СтАЪ├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣ ├Р┬┤├Р┬╗├С┬П ├С┬Б├СтАЪ├СтВм├Р┬╡├Р┬╗├Р┬╛├Р┬║ */
+}
+
+.k_gal .carousel-wrapper {
+  position: relative;
+
+  overflow: hidden;
+  /* ├С┬Б├Р┬║├СтВм├СтА╣├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├С┬Б├Р┬╛├Р┬┤├Р┬╡├СтВм├Р┬╢├Р┬╕├Р┬╝├Р┬╛├Р┬╡, ├Р┬▓├СтА╣├СтАж├Р┬╛├Р┬┤├С┬П├СтА░├Р┬╡├Р┬╡ ├Р┬╖├Р┬░ ├СтВм├Р┬░├Р┬╝├Р┬║├Р┬╕ ├Р┬╛├С┬Б├Р┬╜├Р┬╛├Р┬▓├Р┬╜├Р┬╛├Р┬╣ ├Р┬╛├Р┬▒├Р┬╗├Р┬░├С┬Б├СтАЪ├Р┬╕ */
+
+  width: 1109px;
+  margin: 0 44px 10px 48px;
+  /* ├Р┬╛├СтАЪ├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣ ├Р┬┤├Р┬╗├С┬П ├С┬Б├СтАЪ├СтВм├Р┬╡├Р┬╗├Р┬╛├Р┬║ */
+}
+
+.carousel-items {
+  position: relative;
+  /* ├Р┬┐├Р┬╛├Р┬╖├Р┬╕├СтАа├Р┬╕├Р┬╛├Р┬╜├Р┬╕├СтВм├С╞Т├Р┬╡├Р┬╝ ├Р┬▒├Р┬╗├Р┬╛├Р┬║ ├Р┬╛├СтАЪ├Р┬╜├Р┬╛├С┬Б├Р┬╕├СтАЪ├Р┬╡├Р┬╗├С┼Т├Р┬╜├Р┬╛ ├Р┬╛├С┬Б├Р┬╜├Р┬╛├Р┬▓├Р┬╜├Р┬╛├Р┬╣ ├Р┬╛├Р┬▒├Р┬╗├Р┬░├С┬Б├СтАЪ├Р┬╕ ├Р┬║├Р┬░├СтВм├С╞Т├С┬Б├Р┬╡├Р┬╗├Р┬╕ */
+
+  width: 10000px;
+  /* ├С╞Т├С┬Б├СтАЪ├Р┬░├Р┬╜├Р┬░├Р┬▓├Р┬╗├Р┬╕├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├Р┬▒├Р┬╛├Р┬╗├С┼Т├С╦Ж├С╞Т├С┼╜ ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├С╞Т ├Р┬┤├Р┬╗├С┬П ├Р┬╜├Р┬░├Р┬▒├Р┬╛├СтВм├Р┬░ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├Р┬╛├Р┬▓ */
+}
+
+.s3 .carousel-block {
+  position: relative;
+
+  float: left;
+  /* ├Р┬▓├СтА╣├С┬Б├СтАЪ├СтВм├Р┬░├Р┬╕├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├Р┬▓├С┬Б├Р┬╡ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬║├Р┬░├СтВм├С╞Т├С┬Б├Р┬╡├Р┬╗├Р┬╕ ├Р┬▓ ├СтВм├С┬П├Р┬┤ */
+
+  width: 365px;
+  /* ├Р┬╖├Р┬░├Р┬┤├Р┬░├СтАШ├Р┬╝ ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├С╞Т ├Р┬║├Р┬░├Р┬╢├Р┬┤├Р┬╛├Р┬│├Р┬╛ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├Р┬░ */
+  padding: 10px 10px 10px 0;
+  /* ├Р┬┤├Р┬╡├Р┬╗├Р┬░├Р┬╡├Р┬╝ ├Р┬╛├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣, ├СтАб├СтАЪ├Р┬╛├Р┬▒├СтА╣ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬╜├Р┬╡ ├С┬Б├Р┬╗├Р┬╕├Р┬▓├Р┬░├Р┬╗├Р┬╕├С┬Б├С┼Т */
+}
+
+.s4 .carousel-block {
+  float: left;
+  /* ├Р┬▓├СтА╣├С┬Б├СтАЪ├СтВм├Р┬░├Р┬╕├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├Р┬▓├С┬Б├Р┬╡ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬║├Р┬░├СтВм├С╞Т├С┬Б├Р┬╡├Р┬╗├Р┬╕ ├Р┬▓ ├СтВм├С┬П├Р┬┤ */
+
+  width: 180px;
+  /* ├Р┬╖├Р┬░├Р┬┤├Р┬░├СтАШ├Р┬╝ ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├С╞Т ├Р┬║├Р┬░├Р┬╢├Р┬┤├Р┬╛├Р┬│├Р┬╛ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├Р┬░ */
+  padding: 10px 37px 10px 0;
+  /* ├Р┬┤├Р┬╡├Р┬╗├Р┬░├Р┬╡├Р┬╝ ├Р┬╛├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣, ├СтАб├СтАЪ├Р┬╛├Р┬▒├СтА╣ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬╜├Р┬╡ ├С┬Б├Р┬╗├Р┬╕├Р┬▓├Р┬░├Р┬╗├Р┬╕├С┬Б├С┼Т */
+}
+
+.gal_okna .carousel-block {
+  float: left;
+  /* ├Р┬▓├СтА╣├С┬Б├СтАЪ├СтВм├Р┬░├Р┬╕├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├Р┬▓├С┬Б├Р┬╡ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬║├Р┬░├СтВм├С╞Т├С┬Б├Р┬╡├Р┬╗├Р┬╕ ├Р┬▓ ├СтВм├С┬П├Р┬┤ */
+
+  width: 275px;
+  /* ├Р┬╖├Р┬░├Р┬┤├Р┬░├СтАШ├Р┬╝ ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├С╞Т ├Р┬║├Р┬░├Р┬╢├Р┬┤├Р┬╛├Р┬│├Р┬╛ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├Р┬░ */
+  padding: 10px 10px 10px 0;
+  /* ├Р┬┤├Р┬╡├Р┬╗├Р┬░├Р┬╡├Р┬╝ ├Р┬╛├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣, ├СтАб├СтАЪ├Р┬╛├Р┬▒├СтА╣ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬╜├Р┬╡ ├С┬Б├Р┬╗├Р┬╕├Р┬▓├Р┬░├Р┬╗├Р┬╕├С┬Б├С┼Т */
+}
+
+.k_gal .carousel-block {
+  float: left;
+  /* ├Р┬▓├СтА╣├С┬Б├СтАЪ├СтВм├Р┬░├Р┬╕├Р┬▓├Р┬░├Р┬╡├Р┬╝ ├Р┬▓├С┬Б├Р┬╡ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬║├Р┬░├СтВм├С╞Т├С┬Б├Р┬╡├Р┬╗├Р┬╕ ├Р┬▓ ├СтВм├С┬П├Р┬┤ */
+
+  width: 213px;
+  /* ├Р┬╖├Р┬░├Р┬┤├Р┬░├СтАШ├Р┬╝ ├С╦Ж├Р┬╕├СтВм├Р┬╕├Р┬╜├С╞Т ├Р┬║├Р┬░├Р┬╢├Р┬┤├Р┬╛├Р┬│├Р┬╛ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├Р┬░ */
+  padding: 10px 10px 10px 0;
+  /* ├Р┬┤├Р┬╡├Р┬╗├Р┬░├Р┬╡├Р┬╝ ├Р┬╛├С┬Б├СтАЪ├С╞Т├Р┬┐├СтА╣, ├СтАб├СтАЪ├Р┬╛├Р┬▒├СтА╣ ├С┬Н├Р┬╗├Р┬╡├Р┬╝├Р┬╡├Р┬╜├СтАЪ├СтА╣ ├Р┬╜├Р┬╡ ├С┬Б├Р┬╗├Р┬╕├Р┬▓├Р┬░├Р┬╗├Р┬╕├С┬Б├С┼Т */
+}
+
+.carousel-block img {
+  /* display:block;*/
+  max-width: 365px;
+  max-height: 433px;
+}
+
+/*********** BUTTONS ***********/
+
+.s3 {
+  .carousel-button-left a,
+  .carousel-button-right a {
+    position: relative;
+    top: 190px;
+
+    width: 32px;
+    height: 59px;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.s4 {
+  .carousel-button-left a,
+  .carousel-button-right a {
+    position: relative;
+    top: 63px;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.gal_okna {
+  .carousel-button-left a,
+  .carousel-button-right a {
+    position: relative;
+    top: 113px;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.k_gal {
+  .carousel-button-left a,
+  .carousel-button-right a {
+    position: relative;
+    top: 113px;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.gal_okna.balkon {
+  .carousel-button-left a,
+  .carousel-button-right a {
+    top: 70px;
+  }
+}
+
+.k_gal {
+  .carousel-button-left a,
+  .carousel-button-right a {
+    top: 70px;
+  }
+}
+
+.s4 {
+  .carousel-button-left a {
+    left: 9px;
+
+    float: left;
+
+    background: url(../img/carousel-left_big.png);
+    &:hover {
+      left: 9px;
+
+      background: url(../img/carousel-left_big.png);
+    }
+  }
+  .carousel-button-right a {
+    right: 9px;
+
+    float: right;
+
+    background: url(../img/carousel-right_big.png);
+    &:hover {
+      right: 9px;
+
+      background: url(../img/carousel-right_big.png);
+    }
+  }
+}
+
+.carousel-button-left a {
+  float: left;
+
+  background: url(../img/carousel-left.png);
+  &:hover {
+/*     background: url(../img/carousel-left_h.html); */
+  }
+}
+
+.carousel-button-right a {
+  float: right;
+
+  background: url(../img/carousel-right.png);
+  &:hover {
+    background: url(../img/carousel-right_h.png);
+  }
+}
+
+.k_gal {
+  .carousel-button-left a {
+    float: left;
+
+    background: url(../img/carousel-left_b.png);
+    &:hover {
+      background: url(../img/carousel-left.png);
+    }
+  }
+  .carousel-button-right a {
+    float: right;
+
+    background: url(../img/carousel-right_b.png);
+    &:hover {
+      background: url(../img/carousel-right.png);
+    }
+  }
+}
+
+/*********** SHADOW ***********/
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
