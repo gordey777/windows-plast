@@ -10,11 +10,13 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['tel'])&&$_POST['t
                     <body>
                         <p>Имя: '.$_POST['name'].'</p>
                         <p>Телефон: '.$_POST['tel'].'</p>
-                        <p>Телефон: '.$_POST['type'].'</p>
+                        <p>Текст: '.$_POST['txt'].'</p>
+                        <p>Тип: '.$_POST['type'].'</p>
+
                     </body>
                 </html>'; //Текст нащего сообщения можно использовать HTML теги
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-        $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
+        $headers .= "From: Отправитель>\r\n"; //Наименование и почта отправителя
         mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
 }
 ?>

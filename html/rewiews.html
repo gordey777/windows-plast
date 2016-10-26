@@ -443,7 +443,7 @@
     //Comagic.push(['addOfflineRequest', {name: name,  phone: tel, message: 'otz' }]);
     $.ajax({
       type: "POST",
-      url: "#",
+      url: "forms.php",
       data: "name=" + name + "&tel=" + tel + '&txt=' + txt + '&f=otz',
       success: function(data) {
         if (data == 'ok') {
