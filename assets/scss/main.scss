@@ -2642,7 +2642,7 @@ margin-right:20px;
     width: 623px;
     height: 615px;
 
-    background: url('../img/bal_config/hot_bg.jpg') no-repeat left top;
+    background: url('../img/hot_bg.jpg') no-repeat left top;
   }
   .bal_shell {
     position: absolute;
@@ -2650,7 +2650,7 @@ margin-right:20px;
     width: 623px;
     height: 615px;
 
-    background: url('../img/bal_config/gofra_b1.png') no-repeat left top;
+    background: url('../img/gofra_b1.png') no-repeat left top;
   }
   .bal_sign {
     font-family: roboto condensed;
@@ -2671,7 +2671,7 @@ margin-right:20px;
 }
 
 .cold_bg {
-  background: url('../img/bal_config/cold_bg.jpg') no-repeat left top !important;
+  background: url('../img/cold_bg.jpg') no-repeat left top !important;
 }
 
 .bal_right .variants {
@@ -2711,12 +2711,12 @@ margin-right:20px;
 
         cursor: pointer;
 
-        background: url('../img/bal_config/ck0.png') no-repeat;
+        background: url('../img/ck0.png') no-repeat;
       }
       &.active {
         color: #000;
         .select {
-          background: url('../img/bal_config/ck1.png') no-repeat;
+          background: url('../img/ck1.png') no-repeat;
         }
       }
     }
@@ -2795,7 +2795,7 @@ margin-right:20px;
     width: 645px;
     height: 800px;
 
-    background: url('../img/l_config/bg.jpg') no-repeat;
+    background: url('../img/bg.jpg') no-repeat;
     .maket_roof {
       position: absolute;
       z-index: 50;
@@ -2805,7 +2805,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/roof/roof2_m.png') no-repeat;
+      background: url('../img/roof2_m.png') no-repeat;
     }
     .maket_okno {
       position: absolute;
@@ -2816,7 +2816,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/okno/okno2_m.png') no-repeat;
+      background: url('../img/okno2_m.png') no-repeat;
     }
     .maket_shell {
       position: absolute;
@@ -2827,7 +2827,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/shell/shell1_m.png') no-repeat;
+      background: url('../img/shell1_m.png') no-repeat;
     }
     .maket_struct {
       position: absolute;
@@ -2838,7 +2838,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/struct/struct1_m.png') no-repeat;
+      background: url('../img/struct1_m.png') no-repeat;
     }
     .maket_otdelka {
       position: absolute;
@@ -2849,7 +2849,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/otdelka/otdelka1_m.png') no-repeat;
+      background: url('../img/otdelka1_m.png') no-repeat;
     }
     .maket_skaf {
       position: absolute;
@@ -2860,7 +2860,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/skaf/skaf1_m.png') no-repeat;
+      background: url('../img/skaf1_m.png') no-repeat;
     }
     .maket_floor {
       position: absolute;
@@ -2871,7 +2871,7 @@ margin-right:20px;
       width: 645px;
       height: 800px;
 
-      background: url('../img/l_config/floor/floor10_m.png') no-repeat;
+      background: url('../img/floor10_m.png') no-repeat;
     }
   }
   .l_layer {
@@ -2883,7 +2883,7 @@ margin-right:20px;
     width: 800px;
     height: 700px;
 
-    background: url('../img/l_config/pointers.png') no-repeat;
+    background: url('../img/pointers.png') no-repeat;
   }
   .l_roof {
     top: 25px;
@@ -2959,7 +2959,7 @@ margin-right:20px;
       text-align: right;
 
       color: #e00;
-      background: url('../img/l_config/rub.png') no-repeat right center;
+      background: url('../img/rub.png') no-repeat right center;
     }
   }
   .l_block {
