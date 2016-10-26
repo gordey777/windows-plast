@@ -342,6 +342,7 @@ $(function() {
       data: "name=" + name + "&tel=" + tel + "&f=" + type + "&subject=Вызвать замерщика",
       success: function(data) {
         if (data == 'ok') {
+          //alert ('Заявка успешно отправлена');
           $('#popup1').fadeOut(300);
           $('.pop_name').val('');
           $('.pop_tel').val('');
