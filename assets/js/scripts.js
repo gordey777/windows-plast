@@ -4759,7 +4759,6 @@ $(document).on('click', '.carousel-button-right', function() {
 $(window).scroll(function() {
   var a = 0;
   if (($(this).scrollTop() > 500) && ($(this).scrollTop() < $(document).height() - 1000)) {
-    //if (($(this).scrollTop() > 500)) {
     if (a == 0) {
       $('.scroll').animate({
         right: 15
@@ -4791,13 +4790,8 @@ $(window).scroll(function() {
       b = 0;
     }
   }
-});
-
-
-$(window).scroll(function() {
 
   var ii = 1;
-
   if ($('.grafic').length > 0) {
     var blocks = $('.grafic');
 
