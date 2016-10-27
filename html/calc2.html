@@ -343,7 +343,58 @@
   <script src="js/jquery.countdown.js"></script>
   <script src="js/carousel.js"></script>
   <script src="js/jquery.scrollTo-min.js"></script>
-  <script src="js/scripts.js"></script>
+<script>
+  $(".calc_menu li").click(function(){
+    $(".calc_menu li").removeClass('active');
+    $(this).addClass('active');
+    var id=$(this).attr('id');
+    $(".calc_balkon .calc_main").css('background','url("img/'+id+'p.jpg") no-repeat center top');
+  });
+
+  $(".c_width").keyup(function(){
+    if ($(".c_width").val()>700){$(".c_width").val(700)}
+    //if ($(".c_width").val()<150 || 'NanN'){$(".c_width").val(150)}
+    $(".c_width").val(Math.floor($(".c_width").val()));
+    if ($(".c_width").val()>=80 ){balkonCalc();}
+    else {
+      $(".itogi .itogo").html('0.-')
+      $(".itogi .i_montaz span").html('0 руб.');
+      $(".itogi .i_otd span").html('0 руб.');
+      $(".itogi .i_rassr span").html('0');
+      }
+  });
+  $(".c_height").keyup(function(){
+    if ($(".c_height").val()>200){$(".c_height").val(200)}
+    //if ($(".c_height").val()<120 || 'NaN'){$(".c_height").val(120)}
+    $(".c_height").val(Math.floor($(".c_height").val()));
+    if ($(".c_width").val()>=80 ){balkonCalc();}
+    else {
+      $(".itogi .itogo").html('0.-')
+      $(".itogi .i_montaz span").html('0 руб.');
+      $(".itogi .i_otd span").html('0 руб.');
+      $(".itogi .i_rassr span").html('0');
+      }
+  })
+
+  function balkonCalc(){
+    var m2=3305;
+    var c_width=$('.c_width').val();
+    var c_height=$('.c_height').val();
+
+    var itogo=c_width*c_height*m2/10000;
+
+    $(".itogi .itogo").html(Math.floor(itogo)+'.-');
+    $(".itogi .i_montaz span").html(Math.floor(itogo*0.2)+' руб.');
+    $(".itogi .i_otd span").html(Math.floor(itogo*0.3)+' руб.');
+    $(".itogi .i_rassr span").html(Math.floor(itogo/12));
+
+  }
+
+$(function(){
+  balkonCalc();
+})
+</script>
+
 
 </body>
 </html>
