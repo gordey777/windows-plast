@@ -4759,7 +4759,6 @@ $(document).on('click', '.carousel-button-right', function() {
 $(window).scroll(function() {
   var a = 0;
   if (($(this).scrollTop() > 500) && ($(this).scrollTop() < $(document).height() - 1000)) {
-    //if (($(this).scrollTop() > 500)) {
     if (a == 0) {
       $('.scroll').animate({
         right: 15
@@ -4791,13 +4790,8 @@ $(window).scroll(function() {
       b = 0;
     }
   }
-});
-
-
-$(window).scroll(function() {
 
   var ii = 1;
-
   if ($('.grafic').length > 0) {
     var blocks = $('.grafic');
 
@@ -5684,3 +5678,36 @@ price['floor10'] = 250;
 var k = 3; //коэффициент
 
 l_calc();
+
+ymaps.ready(init);
+var myMap,
+  myPlacemark;
+
+
+function init() {
+  myMap = new ymaps.Map("map", {
+    center: [51.640954, 39.235932],
+    zoom: 16,
+    controls: ['zoomControl'],
+
+  });
+
+
+  myPlacemark = new ymaps.Placemark([51.640954, 39.235932], {
+    hintContent: 'Доступные Окна',
+    balloonContent: 'Доступные Окна'
+  }, {
+    iconLayout: 'default#image',
+    //iconImageHref: 'путь к картинке',
+    // Размеры метки.
+    // iconImageSize: [149, 117],
+    // Смещение левого верхнего угла иконки относительно
+    // её "ножки" (точки привязки).
+    // iconImageOffset: [-70, -117]
+
+
+  });
+
+  myMap.geoObjects.add(myPlacemark);
+  myMap.behaviors.disable("scrollZoom");
+}
