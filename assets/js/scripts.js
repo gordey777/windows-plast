@@ -5684,3 +5684,36 @@ price['floor10'] = 250;
 var k = 3; //коэффициент
 
 l_calc();
+
+ymaps.ready(init);
+var myMap,
+  myPlacemark;
+
+
+function init() {
+  myMap = new ymaps.Map("map", {
+    center: [51.640954, 39.235932],
+    zoom: 16,
+    controls: ['zoomControl'],
+
+  });
+
+
+  myPlacemark = new ymaps.Placemark([51.640954, 39.235932], {
+    hintContent: 'Доступные Окна',
+    balloonContent: 'Доступные Окна'
+  }, {
+    iconLayout: 'default#image',
+    //iconImageHref: 'путь к картинке',
+    // Размеры метки.
+    // iconImageSize: [149, 117],
+    // Смещение левого верхнего угла иконки относительно
+    // её "ножки" (точки привязки).
+    // iconImageOffset: [-70, -117]
+
+
+  });
+
+  myMap.geoObjects.add(myPlacemark);
+  myMap.behaviors.disable("scrollZoom");
+}
