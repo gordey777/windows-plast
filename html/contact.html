@@ -331,7 +331,45 @@
   <script src="js/jquery.scrollTo-min.js"></script>
   <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
   <script src="js/scripts.js"></script>
+<script>
+$(window).scroll( function(){
 
+  var blocks = $('.w_blocks').children();
+
+  var  windowSize = $(window).height();
+  var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+
+  var viewportTop = $(scrollElem).scrollTop();
+  var viewportBottom = (viewportTop + windowSize);
+  var offset=100;
+
+   var elemTop =  Math.round(blocks.offset().top ) - offset ;
+     var elemBottom = elemTop + (blocks.height());
+
+  if ((elemTop < viewportBottom) && (elemBottom > viewportTop)){
+    var i = 0;
+    animateCircle1(blocks);
+
+  };
+
+   function animateCircle1() {
+
+      $(blocks[i]).addClass('visible animated fadeIn');
+      $(blocks[i]).removeClass('hidden');
+
+        i++;
+        if (i <= blocks.length) {
+            startAnimation();
+        }
+    }
+
+    function startAnimation() {
+        setTimeout(function () {
+            animateCircle1();}, 450);
+    }
+
+});
+</script>
 
 
 </body>
