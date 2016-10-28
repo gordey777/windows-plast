@@ -1,6 +1,6 @@
 <?
   if( (isset($_POST['name']) && $_POST['name']!="") && (isset($_POST['tel']) && $_POST['tel']!="")){
-    $to = 'mail@yandex.ru';
+    $to = 'ilyashut@gmail.com';
     $subject = 'Обратный звонок';
     $message = '
       <html>
